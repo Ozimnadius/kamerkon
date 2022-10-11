@@ -1,0 +1,138 @@
+.casting{
+  padding-top: 55px;
+  padding-bottom: 115px;
+  @media (max-width: 1279.98px){
+    padding-top: 40px;
+    padding-bottom: 55px;
+  }
+  @media (max-width: 767.98px){
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__title{
+    margin-bottom: 100px;
+    @media (max-width: 1279.98px){
+      margin-bottom: 50px;
+    }
+    @media (max-width: 767.98px){
+      margin-bottom: 40px;
+    }
+  }
+
+  &__form{
+    width: min(100%,630px);
+    margin: 0 auto 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 1279.98px){
+      margin-bottom: 100px;
+    }
+    @media (max-width: 767.98px){
+      margin-bottom: 80px;
+    }
+  }
+
+  &__fields{
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  &__line{
+    height: 1px;
+    margin: 0 44px;
+    background: #fff;
+    position: relative;
+
+    &:before,&:after{
+      content: '';
+      display: block;
+      width: 44px;
+      height: 21px;
+      background-image: url(/images/icons/main-menu__item.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: -10px;
+    }
+
+    &:before{
+      left: -44px;
+    }
+
+    &:after{
+      right: -44px;
+      transform: rotate(-180deg);
+    }
+  }
+
+  &__input{
+    padding: 30px 45px;
+    width: 100%;
+    font-family: var(--font-akrobat);
+    font-size: 30px;
+    font-weight: 600;
+    @media (max-width: 767.98px){
+      padding: 25px 40px;
+      font-size: 18px;
+    }
+
+    &::placeholder{
+      color: #64738f;
+    }
+  }
+
+  &__accept{
+    margin-bottom: 60px;
+    @media (max-width: 767.98px){
+      margin-bottom: 40px;
+    }
+  }
+
+  &__submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+    font-size: 32px;
+    @media (max-width: 767.98px){
+      font-size: 24px;
+    }
+
+    svg{
+      @media (max-width: 767.98px){
+        width: 174px;
+        height: 11px;
+      }
+    }
+  }
+}
+
+.casting-file{
+  width: 100%;
+
+  &__input{
+    display: none;
+  }
+
+  &__fake{
+    display: block;
+    padding: 30px 45px;
+    color: #64738f;
+    font-family: var(--font-akrobat);
+    font-size: 30px;
+    font-weight: 600;
+    @media (max-width: 767.98px){
+      padding: 25px 40px;
+      font-size: 18px;
+    }
+
+    &.active{
+      color: var(--color-txt);
+    }
+  }
+}

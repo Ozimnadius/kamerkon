@@ -1,0 +1,230 @@
+.concert {
+  padding-top: 50px;
+  padding-bottom: 140px;
+  @media (max-width: 1279.98px) {
+    padding-top: 35px;
+    padding-bottom: 80px;
+  }
+  @media (max-width: 767.98px) {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  &__bread {
+    margin-bottom: 35px;
+    @media (max-width: 1279.98px) {
+      margin-bottom: 17px;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+
+  &__block {
+    margin-bottom: 170px;
+    font-family: var(--font-akrobat);
+    color: #f2f2f2;
+    @media (max-width: 1279.98px) {
+      margin-bottom: 85px;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 65px;
+    }
+  }
+
+  &__grid {
+    --grid: 5fr 7fr;
+    display: grid;
+    grid-template-columns: var(--grid);
+    gap: var(--gap, 20px);
+    @media (max-width: 1279.98px) {
+      --grid: 2fr 4fr;
+    }
+    @media (max-width: 767.98px) {
+      --grid: 100%;
+      --gap: 30px;
+    }
+  }
+
+  &__top {
+    margin-bottom: 140px;
+    @media (max-width: 1279.98px) {
+      margin-bottom: 55px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 416px;
+    border-radius: 14px;
+    overflow: hidden;
+    @media (max-width: 1279.98px) {
+      border-radius: 8px;
+    }
+    @media (max-width: 767.98px) {
+      max-width: 219px;
+      margin: 0 auto;
+    }
+  }
+
+  &__title {
+    color: #f2f2f2;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+    @media (max-width: 1279.98px) {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767.98px) {
+      display: none;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    &--mobile {
+      display: none;
+      @media (max-width: 767.98px) {
+        display: block;
+      }
+    }
+  }
+
+  &__bottom {
+    .concert__grid {
+      @media (max-width: 1279.98px) {
+        --grid: 100%;
+        --gap: 40px;
+      }
+      @media (max-width: 767.98px) {
+        --gap: 30px;
+      }
+    }
+  }
+
+  &__sub {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    @media (max-width: 767.98px) {
+      font-size: 20px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      @media (max-width: 767.98px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.concert-info {
+  color: #f2f2f2;
+  @media (max-width: 767.98px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  &__top {
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+    @media (max-width: 1919.98px) {
+      padding-right: 40px;
+    }
+    @media (max-width: 1279.98px) {
+      padding-right: 80px;
+      margin-bottom: 5px;
+    }
+    @media (max-width: 767.98px) {
+      padding-right: 10px;
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+
+  &__price {
+    margin-bottom: 100px;
+    @media (max-width: 1279.98px) {
+      margin-bottom: 70px;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+
+  &__buy {
+    button {
+      color: var(--color-txt);
+      font-family: var(--font);
+      font-size: 33px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      @media (max-width: 1279.98px) {
+        font-size: 20px;
+      }
+      @media (max-width: 767.98px) {
+        text-align: center;
+      }
+
+      svg {
+        @media (max-width: 1279.98px) {
+          width: 168px;
+          height: 11px;
+        }
+      }
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    @media (max-width: 1279.98px) {
+      gap: 0;
+    }
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    @media (max-width: 1279.98px) {
+      font-size: 14px;
+    }
+  }
+
+  &__vals {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__val {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    @media (max-width: 1279.98px) {
+      font-size: 20px;
+    }
+  }
+}

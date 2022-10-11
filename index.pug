@@ -1,0 +1,51 @@
+extends src/core/main
+
+block variables
+    - var title = 'Главная';
+    - var isMain = true;
+
+block content
+    .main
+        .main__videos
+            .main-videos
+                button(type='button').main-videos__btn
+                .main-videos__item.main-videos__item--1
+                    video(autoplay loop muted)
+                        source(src="/video/Dancer.mp4" type="video/mp4")
+                .main-videos__item.main-videos__item--2
+                    video(autoplay loop muted)
+                        source(src="/video/Logo.mp4" type="video/mp4")
+                    .main-videos__flash
+                        img(src="/video/light.png" alt="lorem")
+
+        .main__menu
+            include src/components/main-menu/index
+        .main__title
+            div
+                span.main__title-1 М
+                span.main__title-2 о
+                span.main__title-3 с
+                span.main__title-4 к
+                span.main__title-5 о
+                span.main__title-6 в
+                span.main__title-7 с
+                span.main__title-8 к
+                span.main__title-9 и
+                span.main__title-10 й&nbsp;
+            div
+                span.main__title-11 К
+                span.main__title-12 а
+                span.main__title-13 м
+                span.main__title-14 е
+                span.main__title-15 р
+                span.main__title-16 н
+                span.main__title-17 ы
+                span.main__title-18 й&nbsp;
+            div
+                span.main__title-19 К
+                span.main__title-20 о
+                span.main__title-21 н
+                span.main__title-22 ц
+                span.main__title-23 е
+                span.main__title-24 р
+                span.main__title-25 т

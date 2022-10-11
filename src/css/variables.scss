@@ -1,0 +1,25 @@
+:root{
+  --font: Monplesir script, sans-serif;
+  --font-akrobat: 'Akrobat', sans-serif;
+  --font-gilroy: 'Gilroy', sans-serif;
+  --font-size: 16px;
+  --font-weight: 400;
+  --line-height: 1.42;
+
+  --container-width: 1320px;
+  --container-padding: 0 20px;
+
+  --color-bg: #000000;
+  --color-txt: #ffffff;
+
+  --transition: 0.4s;
+  @media (max-width: 1919.98px){
+    --container-padding: 0 40px;
+  }
+  @media (max-width: 1279.98px){
+    --container-padding: 0 20px;
+  }
+  @media (max-width: 767.98px){
+    --container-padding: 0 10px;
+  }
+}

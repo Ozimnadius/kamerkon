@@ -1,0 +1,51 @@
+.accept{
+  position: relative;
+
+  &__input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    &:checked + .accept__fake{
+      .accept__check{
+        svg{
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &__fake{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    user-select: none;
+  }
+
+  &__check{
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 2px solid currentColor;
+    position: relative;
+
+    svg{
+      display: none;
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+
+  &__txt{
+    font-family: var(--font-akrobat);
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+}

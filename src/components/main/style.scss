@@ -1,0 +1,236 @@
+.main {
+  position: relative;
+  padding: 18.51851852vh 80px 13.88888889vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1919.98px) {
+    padding: 16vh 30px 12vh;
+  }
+  @media (max-width: 1279.98px) {
+    padding: 0 20px 95px 20px;
+  }
+  @media (max-width: 767.98px) {
+    padding: 0 10px 40px 10px;
+  }
+
+  &__videos {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    @media (max-width: 767.98px) {
+      top: -5px;
+    }
+  }
+
+  &__menu {
+    position: relative;
+    z-index: 10;
+    @media (max-width: 1279.98px) {
+      order: 1;
+    }
+  }
+
+  &__title {
+    position: relative;
+    z-index: 10;
+    margin-top: auto;
+    color: #f2f2f2;
+    font-size: 74px;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (max-width: 1919.98px) {
+      font-size: 54px;
+    }
+    @media (max-width: 1279.98px) {
+      margin-bottom: 55px;
+      font-size: 49px;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    &.animate {
+      div {
+        &:nth-child(1) {
+          span {
+            &:nth-child(1) {
+              @include animation(letter-15, 85, 70);
+            }
+
+            &:nth-child(2) {
+              @include animation(letter-15, 85, 80);
+            }
+
+            &:nth-child(3) {
+              @include animation(letter-15, 85, 20);
+            }
+
+            &:nth-child(4) {
+              @include animation(letter-15, 85, 17);
+            }
+
+            &:nth-child(5) {
+              @include animation(letter-15, 85, 10);
+            }
+
+            &:nth-child(6) {
+              @include animation(letter-15, 85, 33);
+            }
+
+            &:nth-child(7) {
+              @include animation(letter-15, 85, 87);
+            }
+
+            &:nth-child(8) {
+              @include animation(letter-15, 85, 40);
+            }
+
+            &:nth-child(9) {
+              @include animation(letter-15, 85, 15);
+            }
+
+            &:nth-child(10) {
+              @include animation(letter-15, 85, 90);
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          span {
+            &:nth-child(1) {
+              @include animation(letter-15, 85, 27);
+            }
+
+            &:nth-child(2) {
+              @include animation(letter-15, 85, 75);
+            }
+
+            &:nth-child(3) {
+              @include animation(letter-15, 85, 37);
+            }
+
+            &:nth-child(4) {
+              @include animation(letter-15, 85, 77);
+            }
+
+            &:nth-child(5) {
+              @include animation(letter-15, 85, 3);
+            }
+
+            &:nth-child(6) {
+              @include animation(letter-15, 85, 45);
+            }
+
+            &:nth-child(7) {
+              @include animation(letter-15, 85, 57);
+            }
+
+            &:nth-child(8) {
+              @include animation(letter-15, 85, 55);
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          span {
+            &:nth-child(1) {
+              @include animation(letter-15, 85, 47);
+            }
+
+            &:nth-child(2) {
+              @include animation(letter-15, 85, 67);
+            }
+
+            &:nth-child(3) {
+              @include animation(letter-15, 85, 30);
+            }
+
+            &:nth-child(4) {
+              @include animation(letter-15, 85, 25);
+            }
+
+            &:nth-child(5) {
+              @include animation(letter-15, 85, 60);
+            }
+
+            &:nth-child(6) {
+              @include animation(letter-15, 85, 83);
+            }
+
+            &:nth-child(7) {
+              @include animation(letter-15, 85, 6);
+            }
+          }
+        }
+      }
+    }
+
+    div {
+      display: flex;
+
+      span {
+        opacity: 0;
+        transform: translateY(-340px);
+      }
+    }
+
+
+  }
+}
+
+.main-videos {
+  width: 693px;
+  height: 674px;
+  @media (max-width: 1919.98px) {
+    width: 571px;
+    height: 555px;
+  }
+  @media (max-width: 1279.98px) {
+    width: 693px;
+    height: 674px;
+  }
+  @media (max-width: 767.98px) {
+    width: 354px;
+    height: 344px;
+  }
+
+  &__item {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--2 {
+      opacity: 0;
+    }
+
+    video {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  &__flash {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+
+    img {
+      transition: initial;
+    }
+  }
+
+}
+
+
+
