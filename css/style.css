@@ -418,6 +418,381 @@ button {
   cursor: pointer;
 }
 
+.ismain .main__title.animate div:nth-child(1) span:nth-child(1) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(2) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(3) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(4) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.51s;
+  animation-delay: 0.51s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(5) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(6) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.99s;
+  animation-delay: 0.99s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(7) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.61s;
+  animation-delay: 2.61s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(8) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(9) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(1) span:nth-child(10) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.7s;
+  animation-delay: 2.7s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(1) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.81s;
+  animation-delay: 0.81s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(2) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.25s;
+  animation-delay: 2.25s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(3) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.11s;
+  animation-delay: 1.11s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(4) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.31s;
+  animation-delay: 2.31s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(5) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.09s;
+  animation-delay: 0.09s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(6) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.35s;
+  animation-delay: 1.35s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(7) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.71s;
+  animation-delay: 1.71s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(2) span:nth-child(8) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.65s;
+  animation-delay: 1.65s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(1) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.41s;
+  animation-delay: 1.41s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(2) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.01s;
+  animation-delay: 2.01s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(3) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(4) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(5) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(6) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 2.49s;
+  animation-delay: 2.49s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.ismain .main__title.animate div:nth-child(3) span:nth-child(7) {
+  -webkit-animation-name: letter-15;
+  animation-name: letter-15;
+  -webkit-animation-duration: 2.55s;
+  animation-duration: 2.55s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-delay: 0.18s;
+  animation-delay: 0.18s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
 .main {
   position: relative;
   padding: 18.51851852vh 80px 13.88888889vh;
@@ -463,381 +838,6 @@ button {
   justify-content: center;
 }
 
-.main__title.animate div:nth-child(1) span:nth-child(1) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.1s;
-  animation-delay: 2.1s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(2) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.4s;
-  animation-delay: 2.4s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(3) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(4) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.51s;
-  animation-delay: 0.51s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(5) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(6) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.99s;
-  animation-delay: 0.99s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(7) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.61s;
-  animation-delay: 2.61s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(8) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.2s;
-  animation-delay: 1.2s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(9) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.45s;
-  animation-delay: 0.45s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(1) span:nth-child(10) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.7s;
-  animation-delay: 2.7s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(1) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.81s;
-  animation-delay: 0.81s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(2) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.25s;
-  animation-delay: 2.25s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(3) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.11s;
-  animation-delay: 1.11s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(4) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.31s;
-  animation-delay: 2.31s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(5) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.09s;
-  animation-delay: 0.09s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(6) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.35s;
-  animation-delay: 1.35s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(7) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.71s;
-  animation-delay: 1.71s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(2) span:nth-child(8) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.65s;
-  animation-delay: 1.65s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(1) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.41s;
-  animation-delay: 1.41s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(2) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.01s;
-  animation-delay: 2.01s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(3) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.9s;
-  animation-delay: 0.9s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(4) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.75s;
-  animation-delay: 0.75s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(5) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 1.8s;
-  animation-delay: 1.8s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(6) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 2.49s;
-  animation-delay: 2.49s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.main__title.animate div:nth-child(3) span:nth-child(7) {
-  -webkit-animation-name: letter-15;
-  animation-name: letter-15;
-  -webkit-animation-duration: 2.55s;
-  animation-duration: 2.55s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.18s;
-  animation-delay: 0.18s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
 .main__title div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -853,6 +853,21 @@ button {
 .main-videos {
   width: 693px;
   height: 674px;
+}
+
+.main-videos__img {
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-videos__img img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .main-videos__item {
@@ -2759,6 +2774,21 @@ button {
     display: none;
   }
 
+  .ismain .header__left {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  .ismain .header__center {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  .ismain .header__right {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
   .header {
     padding: 20px 10px 0 10px;
   }
@@ -2829,9 +2859,38 @@ button {
     font-size: 28px;
   }
 
+  .main__title div span {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
   .main-videos {
     width: 354px;
     height: 344px;
+  }
+
+  .main-videos__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .main-videos__item {
+    display: none;
+  }
+
+  .ismain .main-menu__col {
+    --animate-translate-1: 0;
+    --animate-translate-2: 0;
+    --animate-translate-3: 0;
+    --animate-translate-4: 0;
+    --animate-translate-5: 0;
+  }
+
+  .ismain .main-menu__item:before,
+  .ismain .main-menu__item:after {
+    opacity: 1;
   }
 
   .main-menu {
@@ -3212,11 +3271,15 @@ button {
   .reviews__swiper {
     padding: 0 10px;
     margin: 0 -10px;
-    margin-bottom: 55px;
+    margin-bottom: 0;
   }
 
   .reviews__slide {
     width: 229px;
+  }
+
+  .reviews__pag {
+    display: none;
   }
 
   .call,

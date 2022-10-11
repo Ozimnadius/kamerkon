@@ -1,3 +1,125 @@
+.ismain{
+  .main{
+    &__title{
+      &.animate {
+        div {
+          &:nth-child(1) {
+            span {
+              &:nth-child(1) {
+                @include animation(letter-15, 85, 70);
+              }
+
+              &:nth-child(2) {
+                @include animation(letter-15, 85, 80);
+              }
+
+              &:nth-child(3) {
+                @include animation(letter-15, 85, 20);
+              }
+
+              &:nth-child(4) {
+                @include animation(letter-15, 85, 17);
+              }
+
+              &:nth-child(5) {
+                @include animation(letter-15, 85, 10);
+              }
+
+              &:nth-child(6) {
+                @include animation(letter-15, 85, 33);
+              }
+
+              &:nth-child(7) {
+                @include animation(letter-15, 85, 87);
+              }
+
+              &:nth-child(8) {
+                @include animation(letter-15, 85, 40);
+              }
+
+              &:nth-child(9) {
+                @include animation(letter-15, 85, 15);
+              }
+
+              &:nth-child(10) {
+                @include animation(letter-15, 85, 90);
+              }
+            }
+          }
+
+          &:nth-child(2) {
+            span {
+              &:nth-child(1) {
+                @include animation(letter-15, 85, 27);
+              }
+
+              &:nth-child(2) {
+                @include animation(letter-15, 85, 75);
+              }
+
+              &:nth-child(3) {
+                @include animation(letter-15, 85, 37);
+              }
+
+              &:nth-child(4) {
+                @include animation(letter-15, 85, 77);
+              }
+
+              &:nth-child(5) {
+                @include animation(letter-15, 85, 3);
+              }
+
+              &:nth-child(6) {
+                @include animation(letter-15, 85, 45);
+              }
+
+              &:nth-child(7) {
+                @include animation(letter-15, 85, 57);
+              }
+
+              &:nth-child(8) {
+                @include animation(letter-15, 85, 55);
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            span {
+              &:nth-child(1) {
+                @include animation(letter-15, 85, 47);
+              }
+
+              &:nth-child(2) {
+                @include animation(letter-15, 85, 67);
+              }
+
+              &:nth-child(3) {
+                @include animation(letter-15, 85, 30);
+              }
+
+              &:nth-child(4) {
+                @include animation(letter-15, 85, 25);
+              }
+
+              &:nth-child(5) {
+                @include animation(letter-15, 85, 60);
+              }
+
+              &:nth-child(6) {
+                @include animation(letter-15, 85, 83);
+              }
+
+              &:nth-child(7) {
+                @include animation(letter-15, 85, 6);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .main {
   position: relative;
   padding: 18.51851852vh 80px 13.88888889vh;
@@ -54,121 +176,7 @@
       font-size: 28px;
     }
 
-    &.animate {
-      div {
-        &:nth-child(1) {
-          span {
-            &:nth-child(1) {
-              @include animation(letter-15, 85, 70);
-            }
 
-            &:nth-child(2) {
-              @include animation(letter-15, 85, 80);
-            }
-
-            &:nth-child(3) {
-              @include animation(letter-15, 85, 20);
-            }
-
-            &:nth-child(4) {
-              @include animation(letter-15, 85, 17);
-            }
-
-            &:nth-child(5) {
-              @include animation(letter-15, 85, 10);
-            }
-
-            &:nth-child(6) {
-              @include animation(letter-15, 85, 33);
-            }
-
-            &:nth-child(7) {
-              @include animation(letter-15, 85, 87);
-            }
-
-            &:nth-child(8) {
-              @include animation(letter-15, 85, 40);
-            }
-
-            &:nth-child(9) {
-              @include animation(letter-15, 85, 15);
-            }
-
-            &:nth-child(10) {
-              @include animation(letter-15, 85, 90);
-            }
-          }
-        }
-
-        &:nth-child(2) {
-          span {
-            &:nth-child(1) {
-              @include animation(letter-15, 85, 27);
-            }
-
-            &:nth-child(2) {
-              @include animation(letter-15, 85, 75);
-            }
-
-            &:nth-child(3) {
-              @include animation(letter-15, 85, 37);
-            }
-
-            &:nth-child(4) {
-              @include animation(letter-15, 85, 77);
-            }
-
-            &:nth-child(5) {
-              @include animation(letter-15, 85, 3);
-            }
-
-            &:nth-child(6) {
-              @include animation(letter-15, 85, 45);
-            }
-
-            &:nth-child(7) {
-              @include animation(letter-15, 85, 57);
-            }
-
-            &:nth-child(8) {
-              @include animation(letter-15, 85, 55);
-            }
-          }
-        }
-
-        &:nth-child(3) {
-          span {
-            &:nth-child(1) {
-              @include animation(letter-15, 85, 47);
-            }
-
-            &:nth-child(2) {
-              @include animation(letter-15, 85, 67);
-            }
-
-            &:nth-child(3) {
-              @include animation(letter-15, 85, 30);
-            }
-
-            &:nth-child(4) {
-              @include animation(letter-15, 85, 25);
-            }
-
-            &:nth-child(5) {
-              @include animation(letter-15, 85, 60);
-            }
-
-            &:nth-child(6) {
-              @include animation(letter-15, 85, 83);
-            }
-
-            &:nth-child(7) {
-              @include animation(letter-15, 85, 6);
-            }
-          }
-        }
-      }
-    }
 
     div {
       display: flex;
@@ -176,6 +184,10 @@
       span {
         opacity: 0;
         transform: translateY(-340px);
+        @media (max-width: 767.98px){
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
     }
 
@@ -199,6 +211,21 @@
     height: 344px;
   }
 
+  &__img{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 767.98px){
+      display: flex;
+    }
+
+    img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
   &__item {
     position: absolute;
     inset: 0;
@@ -206,6 +233,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 767.98px){
+      display: none;
+    }
 
     &--2 {
       opacity: 0;
