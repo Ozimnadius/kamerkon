@@ -7,53 +7,65 @@ window.addEventListener('load', function () {
 class Events {
     constructor() {
 
-        this.elems = document.querySelectorAll('[data-event]');
-        this.call = document.querySelector('.call');
-        this.callResume = document.querySelector('.callResume');
+        this.popup = document.querySelector('.popup');
+        this.popupInner = this.popup.querySelector('.popup__inner');
+        this.templates = templates;
 
         this.init();
     }
 
     init() {
-        this.elems.forEach((i) => {
-            let eventName = i.dataset.event;
 
-            switch (eventName) {
-                case "openMenu":
-                    i.addEventListener('click', this.openMenu.bind(this));
-                    break;
-                case "closeMenu":
-                    i.addEventListener('click', this.closeMenu.bind(this));
-                    break;
-                case "openCall":
-                    i.addEventListener('click', this.openCall.bind(this));
-                    break;
-                case "closeCall":
-                    i.addEventListener('click', this.closeCall.bind(this));
-                    break;
-                case "sendCall":
-                    i.addEventListener('submit', this.sendCall.bind(this));
-                    break;
-                case "openCallResume":
-                    i.addEventListener('click', this.openCallResume.bind(this));
-                    break;
-                case "closeCallResume":
-                    i.addEventListener('click', this.closeCallResume.bind(this));
-                    break;
-                case "sendCasting":
-                    i.addEventListener('submit', this.sendCasting.bind(this));
-                    break;
-                case "morePhoto":
-                    i.addEventListener('click', this.morePhoto.bind(this));
-                    break;
-                default:
-                    console.log("Не мое событие: " + eventName);
+        document.querySelector('body').addEventListener('click', (e) => {
+
+            if (e.target.closest('[data-event]')) {
+                let i = e.target.closest('[data-event]'),
+                    eventName = i.dataset.event;
+
+                switch (eventName) {
+                    case "openMenu":
+                        this.openMenu(e);
+                        break;
+                    case "closeMenu":
+                        this.closeMenu(e);
+                        break;
+                    case "openForm":
+                        this.openForm(e);
+                        break;
+                    case "closeForm":
+                        this.closeForm(e);
+                        break;
+                    case "morePhoto":
+                        this.morePhoto(e);
+                        break;
+                    default:
+                        console.log("Не мое событие: " + eventName);
+                }
             }
         });
 
-        this.call.addEventListener('click', (e) => {
-            if (!e.target.closest('.call__form')) {
-                this.closeCall(e);
+        document.querySelector('body').addEventListener('submit', (e) => {
+            if (e.target.closest('[data-event]')) {
+                let i = e.target.closest('[data-event]'),
+                    eventName = i.dataset.event;
+
+                switch (eventName) {
+                    case "sendForm":
+                        this.sendForm(e);
+                        break;
+                    default:
+                        console.log("Не мое событие: " + eventName);
+                }
+            }
+        });
+
+        this.popup.addEventListener('click', (e) => {
+
+            if (!e.target.closest('.popup__inner')) {
+                this.closeForm(e);
+            }
+            if (e.target.closest('[data-event="closeForm"]')) {
+                this.closeForm(e);
             }
         });
 
@@ -71,21 +83,26 @@ class Events {
         document.querySelector('html').classList.remove('ovh');
     }
 
-    openCall(e) {
+    openForm(e) {
+        let btn = e.target.closest('[data-event]'),
+            dataset = btn.dataset;
+
         e.preventDefault();
-        this.call.showModal();
+        this.popupInner.innerHTML = this.templates.html(dataset.name)
+        this.popup.showModal();
         document.querySelector('html').classList.add('ovh');
     }
 
-    closeCall(e) {
+    closeForm(e) {
         e.preventDefault();
-        this.call.close();
+        this.popup.close();
         document.querySelector('html').classList.remove('ovh');
     }
 
-    sendCall(e) {
+    sendForm(e) {
         e.preventDefault();
         let form = e.target,
+            ok = form.dataset.ok,
             data = new FormData(form),
             url = form.action;
 
@@ -95,47 +112,12 @@ class Events {
             data: data,
             processData: false,
             contentType: false,
-            success: function (result) {
+            success: (result) => {
                 if (result.status) {
-                    form.classList.add("ok");
-                } else {
-                    alert("Что-то пошло не так, попробуйте еще раз!!!");
-                }
-            },
-            error: function (result) {
-                alert("Что-то пошло не так, попробуйте еще раз!!!");
-            },
-        });
-    }
-
-    openCallResume(e) {
-        e.preventDefault();
-        this.callResume.showModal();
-        document.querySelector('html').classList.add('ovh');
-    }
-
-    closeCallResume(e) {
-        e.preventDefault();
-        this.callResume.close();
-        document.querySelector('html').classList.remove('ovh');
-    }
-
-    sendCasting(e) {
-        e.preventDefault();
-        let form = e.target,
-            data = new FormData(form),
-            url = form.action;
-
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: data,
-            processData: false,
-            contentType: false,
-            success: function (result) {
-                if (result.status) {
-                    form.reset();
-                    alert("Данные отправлены.")
+                    this.popupInner.innerHTML = this.templates.html(ok);
+                    this.popup.close();
+                    this.popup.showModal();
+                    document.querySelector('html').classList.add('ovh');
                 } else {
                     alert("Что-то пошло не так, попробуйте еще раз!!!");
                 }
@@ -169,6 +151,29 @@ class Events {
 
 
 }
+class Templates {
+    constructor() {
+        this.content = document.querySelector('#templates').content;
+    }
+
+    html(name) {
+        return this.content.querySelector(`#${name}`).innerHTML;
+    }
+
+    close() {
+        $.fancybox.close();
+    }
+
+    open(name, opt = {}) {
+        $.fancybox.open(this.html(name), opt);
+    }
+
+    get current() {
+        return $.fancybox.getInstance().current.$content;
+    }
+}
+
+const templates = new Templates();
 window.addEventListener('load', function () {
     let main = document.querySelector('.main');
 
@@ -234,22 +239,23 @@ window.addEventListener('load', function () {
         }
     });
 });
-window.addEventListener('load', function (){
-   let file = document.querySelector('.casting-file__input');
+window.addEventListener('load', function () {
 
-   if (file){
-       file.addEventListener('change', function (e){
+    document.querySelector('body').addEventListener('change', function (e) {
+        if (e.target.closest('.casting-file__input')) {
 
-           let name = document.querySelector('.casting-file__fake'),
-               file = this.files[0];
-           if(file){
-               name.innerHTML = file.name;
-               name.classList.add('active');
-           } else {
-               name.innerHTML = 'Закрепить резюме в формате .docx';
-               name.classList.remove('active');
-           }
+            let file = e.target.closest('.casting-file__input');
 
-       });
-   }
+            let name = document.querySelector('.casting-file__fake'),
+                doc = file.files[0];
+
+            if (doc) {
+                name.innerHTML = doc.name;
+                name.classList.add('active');
+            } else {
+                name.innerHTML = 'Закрепить резюме в формате .docx';
+                name.classList.remove('active');
+            }
+        }
+    });
 });

@@ -1,0 +1,17 @@
+#call{
+  .form{
+    width: 522px;
+    padding: 65px;
+    @media (max-width: 767.98px){
+      padding: 50px 30px;
+    }
+  }
+}
+
+.call{
+  width: 522px;
+  padding: 65px;
+  @media (max-width: 767.98px){
+    padding: 50px 30px;
+  }
+}

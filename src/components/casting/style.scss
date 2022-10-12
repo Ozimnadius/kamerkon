@@ -79,6 +79,13 @@
       font-size: 18px;
     }
 
+    &--area{
+      height: 260px;
+      @media (max-width: 767.98px){
+        height: 180px;
+      }
+    }
+
     &::placeholder{
       color: #64738f;
     }
