@@ -130,8 +130,13 @@ class Events {
 
     morePhoto(e) {
         e.preventDefault();
+        let btn = e.target.closest('[data-event]');
 
-        $.ajax({
+            btn.closest('.gallery-items').classList.toggle('show');
+            btn.classList.toggle('show');
+
+
+        /*$.ajax({
             dataType: "json",
             type: "POST",
             url: '/php/more.php',
@@ -146,7 +151,7 @@ class Events {
             error: function (result) {
                 alert("Что-то пошло не так, попробуйте еще раз!!!");
             },
-        });
+        });*/
     }
 
 

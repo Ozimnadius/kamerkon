@@ -189,6 +189,10 @@ button {
   content: url("/images/icons/title-right.svg");
 }
 
+.ovh {
+  overflow: hidden;
+}
+
 @-webkit-keyframes letter-15 {
   0% {
     opacity: 0;
@@ -1475,6 +1479,10 @@ button {
   align-items: center;
 }
 
+.gallery-items.show [hidden] {
+  display: block;
+}
+
 .gallery-items__title {
   margin-bottom: 60px;
 }
@@ -1524,6 +1532,18 @@ button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.gallery-items__more.show span:nth-child(1) {
+  display: none;
+}
+
+.gallery-items__more.show span:nth-child(2) {
+  display: block;
+}
+
+.gallery-items__more span:nth-child(2) {
+  display: none;
 }
 
 .gallery-video__title {
