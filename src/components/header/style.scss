@@ -2,23 +2,23 @@
   .header {
     &__left {
       transform: translateX(-490px);
-      @media (max-width: 767.98px){
-        transform: translateX(0);
-      }
+      //@media (max-width: 767.98px){
+      //  transform: translateX(0);
+      //}
     }
 
     &__center {
       transform: translateY(-300px);
-      @media (max-width: 767.98px){
-        transform: translateY(0);
-      }
+      //@media (max-width: 767.98px){
+      //  transform: translateY(0);
+      //}
     }
 
     &__right {
       transform: translateX(490px);
-      @media (max-width: 767.98px){
-        transform: translateX(0);
-      }
+      //@media (max-width: 767.98px){
+      //  transform: translateX(0);
+      //}
     }
   }
 }
