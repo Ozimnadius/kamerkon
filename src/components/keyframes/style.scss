@@ -1,37 +1,37 @@
 @keyframes letter-15 {
-  0%{
+  0% {
     opacity: 0;
-    transform: translateY(-340px);
+    transform: translateY(-150px);
   }
-  50%{
+  50% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
 @keyframes slideFrom {
-  100%{
+  100% {
     transform: translateX(0);
   }
 }
 
 @keyframes slideFromTop {
-  100%{
+  100% {
     transform: translateY(0);
   }
 }
 
 @keyframes flash {
-  0%{
+  0% {
     inset: 0;
   }
-  50%{
+  50% {
     scale: 1;
   }
-  100%{
+  100% {
     scale: 0;
   }
 }

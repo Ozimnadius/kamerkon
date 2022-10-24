@@ -3,6 +3,7 @@ window.addEventListener('load', function () {
         spaceBetween: 20,
         pagination: {
             el: '.concerts-slider__pag',
+            clickable: true
         },
         navigation: {
             nextEl: '.concerts-slider__next',
@@ -16,6 +17,7 @@ window.addEventListener('load', function () {
         slidesPerGroup: 1,
         pagination: {
             el: '.reviews__pag',
+            clickable: true
         },
         navigation: {
             nextEl: '.reviews__next',
